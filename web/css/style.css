@@ -1,0 +1,161 @@
+*{
+    padding:0;
+    margin:0;
+}
+header{
+    background:white;
+    padding:30px 160px;
+    height: 100px;
+}
+.logo{
+    float: left;
+    margin-top:10px;
+}
+.logo a{
+    color: black;
+    text-decoration: none;
+}
+.logo h1{
+    font-size: 40px;
+}
+.logo p{
+    font-size: 20px;
+    color:gray;
+}
+nav{
+    float: right;
+}
+nav ul{
+    margin-top: 60px;
+}
+nav ul li{
+    display: inline;
+    margin:0 30px;
+}
+nav ul li a{
+    color:gray;
+    text-decoration: none;
+    font-size:18px;
+    text-transform: uppercase;
+}
+section{
+    background: rgb(235,229,229);
+    padding:50px 80px;
+    display:flex;
+}
+section .photo img{
+    border-radius: 50%;
+    width:500px;
+}
+section .photo{
+    flex: 4;
+}
+section .space{
+    flex:1;
+}
+section .about{
+    flex: 6;
+}
+.about h1{
+    font-size: 80px;
+}
+.about h2{
+    font-size: 50px;
+}
+.about .parts{
+    display: flex;
+}
+.about .parts .part1{
+    background: rgb(233,52,87);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin:20px;
+    margin-left: 0;
+    transition: 0.5s;
+}
+.about .parts .part1:hover, .about .parts .part2:hover, .about .parts .part3:hover{
+    background: blueviolet;
+}
+.about .parts .part1:hover p, .about .parts .part2:hover p, .about .parts .part3:hover p{
+    color:black;
+}
+.about .parts .part2{
+    background:rgb(96,209,207);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin:20px;
+    transition: 0.5s;
+}
+.about .parts .part3{
+    background:rgb(209,200,37);
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    margin:20px;
+    transition: 0.5s;
+}
+.about .parts p{
+    margin-top: 66px;
+    font-size: 20px;
+    color: white;
+
+}
+.about .desc{
+    font-size:18px;
+    margin-top:20px;
+    margin-bottom: 40px;
+}
+footer{
+    background: rgb(232,53,85);
+    display: flex;
+    padding:30px 160px;
+    color:white;
+}
+
+footer .fpart{
+    flex:1;
+    display:flex;
+}
+.fpart .cir{
+    border-radius: 50%;
+    background: rgb(96,209,207);
+    height:50px;
+    width:50px;
+    text-align: center;
+}
+.pir{
+    margin-left: 10px;
+}
+.fpart .cir .fa{
+    margin:14px 0;
+    font-size:24px;
+}
+.social .fa{
+margin: 7px;
+font-size: 1.5em;
+}
+footer .white{
+    color:white;
+    text-decoration: none;
+}
+.line{
+    margin-top: 5px;
+}
+.link{
+    padding: 10px 20px;
+    background:blue;
+    border-radius: 5px;
+    color:white;
+    text-decoration: none;
+    transition: 0.5s;
+
+}
+.link:hover{
+    background: blueviolet;
+    color:black;
+}
